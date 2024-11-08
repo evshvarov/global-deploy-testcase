@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="IRIS" version="26" zv="IRIS for UNIX (Ubuntu Server LTS for ARM64 Containers) 2024.1.1 (Build 347U)" ts="2024-11-08 18:56:42">
+<Global>
+<Node><Sub>^testipm.global</Sub>
+<Data>Hello, Global!</Data>
+<Node><Sub>test</Sub>
+<Data>Hello, World!</Data>
+<Node><Sub>sub</Sub>
+<Data>Hello, Subscript!</Data>
+</Node>
+</Node>
+</Node>
+</Global>
+</Export>

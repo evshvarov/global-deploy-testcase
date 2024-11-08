@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="objectscript-template.ZPM">
+  <Document name="global-deploy.ZPM">
     <Module>
-      <Name>objectscript-template</Name>
-      <Version>1.1.2</Version>
+      <Name>global-deploy</Name>
+      <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.sample.PKG"/>
+      <Resource Name="testipm.PKG"/>
+      <Resource Name="testipm.global.GBL"/>
     </Module>
   </Document>
 </Export>

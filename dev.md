@@ -5,6 +5,8 @@ use it when docker says "There is no space left on device". It will remove built
 docker system prune -f
 ```
 
+<Resource Name="testipm.global.GBL"/>
+
 ## if the previous doesn't help anymore:
 ```
 docker system prune -a
@@ -59,7 +61,7 @@ repo -r -n registry -url https://pm.community.intersystems.com/
 
 ## export a global in runtime into the repo
 ```
-d $System.OBJ.Export("GlobalD.GBL","/home/irisowner/dev/src/gbl/GlobalD.xml")
+d $System.OBJ.Export("testipm.global.GBL","/home/irisowner/dev/src/gbl/testipm.global.xml")
 ```
 
 ## create a web app in dockerfile
